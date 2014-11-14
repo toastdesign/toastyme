@@ -82,6 +82,27 @@ Base styles
 /* ==========================================================================
 Layout styles
 ========================================================================== */
+/* line 8, ../sass/_layout.scss */
+#content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/susy/sass/susy/output/support/_clearfix.scss */
+  #content:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  /* line 12, ../sass/_layout.scss */
+  #content #primary {
+    width: 49.36709%;
+    float: left;
+    margin-right: 1.26582%; }
+  /* line 18, ../sass/_layout.scss */
+  #content #secondary {
+    width: 49.36709%;
+    float: right;
+    margin-right: 0; }
+
 /* ==========================================================================
 Module styles
 ========================================================================== */

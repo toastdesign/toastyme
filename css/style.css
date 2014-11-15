@@ -20,7 +20,6 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 */
-/* line 5, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,38 +40,30 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -82,24 +73,20 @@ Base styles
 /* ==========================================================================
 Layout styles
 ========================================================================== */
-/* line 8, ../sass/_layout.scss */
 #content {
-  max-width: 800px;
+  max-width: 1140px;
   margin-left: auto;
   margin-right: auto; }
-  /* line 12, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/susy/sass/susy/output/support/_clearfix.scss */
   #content:after {
     content: " ";
     display: block;
     clear: both; }
-  /* line 12, ../sass/_layout.scss */
   #content #primary {
-    width: 49.36709%;
+    width: 66.10169%;
     float: left;
-    margin-right: 1.26582%; }
-  /* line 18, ../sass/_layout.scss */
+    margin-right: 1.69492%; }
   #content #secondary {
-    width: 49.36709%;
+    width: 32.20339%;
     float: right;
     margin-right: 0; }
 
@@ -115,3 +102,5 @@ Typography styles
 /* ==========================================================================
 Color styles
 ========================================================================== */
+
+/*# sourceMappingURL=style.css.map */

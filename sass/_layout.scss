@@ -6,9 +6,9 @@ Layout styles
 
 
 #content{
-
- 	@include container();
-
+	
+	@include  container();
+ 	
  	#primary {
 
  		@include span(8);
@@ -17,7 +17,7 @@ Layout styles
 
  	#secondary {
 
- 		@include span(8 at 9);
+ 		@include span(4 at 9);
 
  	}
 
